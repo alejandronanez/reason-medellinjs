@@ -56,3 +56,11 @@ people
 ->Belt.List.map(getFullName)
 ->Belt.List.map(String.uppercase)
 ->Belt.List.forEach(Js.log);
+
+/**
+ * JS: 🤷‍
+ *    people
+ *      .map(getFullName)
+ *      .map(fullName => fullName.toUpperCase())
+ *      .forEach(console.log)
+ */;
