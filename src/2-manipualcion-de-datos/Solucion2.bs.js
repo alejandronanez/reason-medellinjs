@@ -3,6 +3,7 @@
 
 var $$String = require("bs-platform/lib/js/string.js");
 var Belt_List = require("bs-platform/lib/js/belt_List.js");
+var Belt_Option = require("bs-platform/lib/js/belt_Option.js");
 
 var personOne = /* record */[
   /* nombre */"tu nombre",
@@ -62,9 +63,23 @@ Belt_List.forEach(Belt_List.map(Belt_List.map(people, getFullName), $$String.upp
         return /* () */0;
       }));
 
+var peopleWithAge = Belt_List.keep(people, (function (person) {
+        return Belt_Option.isSome(person[/* edad */2]);
+      }));
+
+var peopleWithoutAge = Belt_List.keep(people, (function (person) {
+        return Belt_Option.isNone(person[/* edad */2]);
+      }));
+
+console.log("Con edad: ", peopleWithAge);
+
+console.log("Sin edad: ", peopleWithoutAge);
+
 exports.personOne = personOne;
 exports.personTwo = personTwo;
 exports.personThree = personThree;
 exports.people = people;
 exports.getFullName = getFullName;
+exports.peopleWithAge = peopleWithAge;
+exports.peopleWithoutAge = peopleWithoutAge;
 /*  Not a pure module */

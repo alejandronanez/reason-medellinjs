@@ -57,6 +57,14 @@ people
 ->Belt.List.map(String.uppercase)
 ->Belt.List.forEach(Js.log);
 
+let peopleWithAge =
+  Belt.List.keep(people, person => Belt.Option.isSome(person.edad));
+let peopleWithoutAge =
+  Belt.List.keep(people, person => Belt.Option.isNone(person.edad));
+
+Js.log2("Con edad: ", peopleWithAge);
+Js.log2("Sin edad: ", peopleWithoutAge);
+
 /**
  * JS: 🤷‍
  *    people
