@@ -1,5 +1,8 @@
 {
   "name": "reason-medellinjs",
+  "reason": {
+    "react-jsx": 3
+  },
   "version": "0.1.0",
   "sources": {
     "dir" : "src",
@@ -11,7 +14,7 @@
   },
   "suffix": ".bs.js",
   "bs-dependencies": [
-
+    "reason-react"
   ],
   "warnings": {
     "error" : "+101"

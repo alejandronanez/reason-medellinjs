@@ -2,7 +2,7 @@
   "name": "reason-medellinjs",
   "version": "0.1.0",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "server": "parcel src/3-reason-react/index.html",
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
@@ -16,5 +16,10 @@
     "bs-platform": "^5.0.6",
     "bsb-js": "^1.1.7",
     "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "reason-react": "^0.7.0"
   }
 }
