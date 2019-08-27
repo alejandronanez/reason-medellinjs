@@ -4,7 +4,7 @@
 var React = require("react");
 
 function App(Props) {
-  return React.createElement("div", undefined, "hola Medellin JS");
+  return React.createElement("div", undefined, "Empiecen aqui");
 }
 
 var make = App;

@@ -1,2 +1,2 @@
 [@react.component]
-let make = () => <div> {React.string("hola Medellin JS")} </div>;
+let make = () => <div> "Empiecen aqui"->React.string </div>;
