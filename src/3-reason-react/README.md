@@ -2,6 +2,10 @@
 - Rendericemos todas las personas creadas en los ejercicios anteriores (encontrarán la solución del ejercicio anterior en el archivo `Data.re`).
 - Deberían escribir la solución en el archivo `App.re`
 
+## Cómo correr el proyecto?
+- `npm install`
+- `npm run server`
+
 ## Bonus
 - Mostrar un mensaje diferente si la persona tiene edad o no.
 
