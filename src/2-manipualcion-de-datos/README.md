@@ -18,7 +18,6 @@ jane doe
 - [Reason String API](https://reasonml.github.io/api/String.html)
 - [Bucklescript Standard Library](https://bucklescript.github.io/docs/en/stdlib-overview)
 - [Belt.List.Keep](https://bucklescript.github.io/bucklescript/api/Belt.List.html#VALkeep)
-- [Belt.List.Keep](https://bucklescript.github.io/bucklescript/api/Belt.List.html#VALkeep)
 
 # Bonus 💰
 - Transforma el nombre y el apellido a mayúscula
